@@ -49,13 +49,17 @@ Powyższa płytka w pliku .json będzie opisana następująco:
 
 Klucze north, east, south oraz west określają id płytek które moga sąsiadować z nasza płytką od danej strony. Przykładowa płytka zatem od północy sąsiadować może z płytkami o id 0 i 2, czyli: 
 
+<div style="display=flex">
 <img src="tile_sets/basic_set/images/tile-0.png" alt="Płytka" width="200" height="200" style="margin-right: 25px">
 <img src="tile_sets/basic_set/images/tile-2.png" alt="Płytka" width="200" height="200">
+</div>
 
 , a od wschodu z płytkami o id 0 i 1:
 
+<div style="display=flex">
 <img src="tile_sets/basic_set/images/tile-0.png" alt="Płytka" width="200" height="200" style="margin-right: 25px">
 <img src="tile_sets/basic_set/images/tile-1.png" alt="Płytka" width="200" height="200">
+</div>
 
 <br> <br>
 W każdym zestawie płytek ostatnią pozycję zajmuje "płytka pusta". Jako że w mojej implementacji każdą pozycję na planszy zajmuje obiekt którego jednym z atrybutów jest zbiór możliwych płytek na dane miejsce, to takie rozwiązanie jest wygodne do reprezentowania pozycji
